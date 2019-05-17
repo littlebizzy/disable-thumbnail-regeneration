@@ -6,10 +6,12 @@ Disables the default image meta and thumbnail regeneration functions that occur 
 * [Download Latest Version (ZIP)](https://github.com/littlebizzy/disable-thumbnail-regeneration/archive/0.0.0.zip)
 * [**Become A LittleBizzy.com Member Today!**](https://www.littlebizzy.com/members)
 
-    add_filter( 'woocommerce_resize_images', '__return_false' );
-    add_filter( 'woocommerce_background_image_regeneration', '__return_false' );
+Includes these filters:    
     
-    https://wordpress.org/support/topic/woocommerce-conflict-25/
+    add_filter('woocommerce_resize_images', '__return_false');
+    add_filter('woocommerce_background_image_regeneration', '__return_false');
+    
+Ref: https://wordpress.org/support/topic/woocommerce-conflict-25/
 
 ### Defined Constants
 
