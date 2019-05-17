@@ -3,7 +3,7 @@
 Disables the default image meta and thumbnail regeneration functions that occur in WooCommerce Core to improve performance and retain better control.
 
 * [Plugin Homepage](https://www.littlebizzy.com/plugins/disable-thumbnail-regeneration)
-* [Download Latest Version (ZIP)](https://github.com/littlebizzy/disable-thumbnail-regeneration/archive/0.0.0.zip)
+* [Download Latest Version (ZIP)](https://github.com/littlebizzy/disable-thumbnail-regeneration/archive/1.0.0.zip)
 * [**Become A LittleBizzy.com Member Today!**](https://www.littlebizzy.com/members)
 
 Includes these filters:    
