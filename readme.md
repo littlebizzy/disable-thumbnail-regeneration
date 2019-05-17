@@ -21,7 +21,7 @@ Ref: https://wordpress.org/support/topic/woocommerce-conflict-25/
     
     /* Dashboard Cleanup Functions */
     define('DISABLE_THUMBNAIL_REGENERATION', true); // default = true
-    define('DISABLE_THUMBNAIL_RESIZING', true); // default = true
+    define('DISABLE_THUMBNAIL_REGENERATION_META', true); // default = true
 
 ### Compatibility
 
