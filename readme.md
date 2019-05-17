@@ -1,7 +1,6 @@
 # Disable Thumbnail Regeneration
 
-Cleans up the WP Admin backend by disabling various core WP and WC bloat features including Automattic spam, nag notices, tracking, and other items.
-
+Disables the default image meta and thumbnail regeneration functions that occur in WooCommerce Core to improve performance and retain better control.
 
 * [Plugin Homepage](https://www.littlebizzy.com/plugins/disable-thumbnail-regeneration)
 * [Download Latest Version (ZIP)](https://github.com/littlebizzy/disable-thumbnail-regeneration/archive/0.0.0.zip)
@@ -9,6 +8,7 @@ Cleans up the WP Admin backend by disabling various core WP and WC bloat feature
 
     add_filter( 'woocommerce_resize_images', '__return_false' );
     add_filter( 'woocommerce_background_image_regeneration', '__return_false' );
+    
     https://wordpress.org/support/topic/woocommerce-conflict-25/
 
 ### Defined Constants
