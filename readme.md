@@ -11,8 +11,6 @@ Includes these filters:
     add_filter('woocommerce_resize_images', '__return_false');
     add_filter('woocommerce_background_image_regeneration', '__return_false');
     
-Ref: https://wordpress.org/support/topic/woocommerce-conflict-25/
-
 ### Defined Constants
 
     /* Plugin Meta */
@@ -42,3 +40,9 @@ Any of our WordPress plugins may also be loaded as "Must-Use" plugins (meaning t
 ### Support Issues
 
 Please do not submit Pull Requests. Instead, kindly create a new Issue with relevant information if you are an experienced developer, otherwise you may become a [**LittleBizzy.com Member**](https://www.littlebizzy.com/members) if your company requires official support.
+
+### References
+
+* https://wordpress.org/support/topic/woocommerce-causing-huge-cpu-usage-spike/
+* https://github.com/woocommerce/woocommerce/wiki/Thumbnail-Image-Regeneration-in-3.3
+* https://wordpress.org/support/topic/woocommerce-conflict-25/
